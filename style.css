@@ -1,0 +1,44 @@
+*,*::after *::before{
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100px;
+    margin: 0;
+    background:linear-gradient(to right bottom,#8c9667, #787b83 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: rgb(71, 94, 20);
+}
+.talk{
+    width: 200px;
+    text-align: center;
+}
+text {
+    width: 300%;
+    height: 200px;
+    border-radius: 20px;
+    resize:horizontal;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 40px;
+    color: rgb(190, 235, 29);
+
+
+}
+button{
+    padding: 70px 100px;
+    background: #3e4c52;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+}
